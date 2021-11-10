@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Perth |  Congestion Report 2019</title>
+<meta name="author" content="Richard Green and Weihua Chen">
+<meta name="description" content="Note: Ratio of median travel time to best (shortest) travel time for each route. Across Perth all routes have METRs of around 1.1, hence there is typically around 10 per cent variation between the...">
+<meta name="generator" content="bookdown 0.24 with bs4_book()">
+<meta property="og:title" content="Perth |  Congestion Report 2019">
+<meta property="og:type" content="book">
+<meta property="og:image" content="/media/image124.jpeg">
+<meta property="og:description" content="Note: Ratio of median travel time to best (shortest) travel time for each route. Across Perth all routes have METRs of around 1.1, hence there is typically around 10 per cent variation between the...">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Perth |  Congestion Report 2019">
+<meta name="twitter:description" content="Note: Ratio of median travel time to best (shortest) travel time for each route. Across Perth all routes have METRs of around 1.1, hence there is typically around 10 per cent variation between the...">
+<meta name="twitter:image" content="/media/image124.jpeg">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/header-attrs-2.11/header-attrs.js"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><link href="libs/_Roboto-0.4.0/font.css" rel="stylesheet">
+<link href="libs/_Roboto%20Mono-0.4.0/font.css" rel="stylesheet">
+<script src="libs/bs3compat-0.3.1/transition.js"></script><script src="libs/bs3compat-0.3.1/tabs.js"></script><script src="libs/bs3compat-0.3.1/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS -->
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title=""><div class="inline-figure">
+<img src="media/bitre.png" style="width:100.0%">
+Congestion Report 2019</div></a>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
+    </div>
+
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html">At a glance</a></li>
+<li><a class="" href="sydney.html">Sydney</a></li>
+<li><a class="" href="melbourne.html">Melbourne</a></li>
+<li><a class="" href="brisbane.html">Brisbane</a></li>
+<li><a class="" href="adelaide.html">Adelaide</a></li>
+<li><a class="active" href="perth.html">Perth</a></li>
+<li><a class="" href="appendices-and-references.html">Appendices and References</a></li>
+</ul>
+
+        <div class="book-extra">
+          
+        </div>
+      </nav>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="perth" class="section level1 unnumbered">
+<h1>Perth<a class="anchor" aria-label="anchor" href="#perth"><i class="fas fa-link"></i></a>
+</h1>
+<div class="inline-figure">
+<img src="media/image13.PNG" style="width:100.0%">
+Note: Ratio of median travel time to best (shortest) travel time for each route.</div>
+<p>Across Perth all routes have METRs of around 1.1, hence there is typically around 10 per cent variation between the median travel time and best travel time across each route. Routes 5 and 6, between the CBD and Fremantle (via the Stirling and Canning Highways, respectively), exhibit slightly higher variation. Routes with relatively high MEURs include Route 2 (Mitchell Highway) and Route 3 (Reid Highway). On Route 2 (Mitchell) the MEUR is 2.7 southbound and 4.7 northbound, and on Route 3 (Reid) the MEUR is 2.5 and 2.8 (westbound and eastbound, respectively). In both cases the larger difference between median variation and the minimum travel time variation, is due to there being very little variation in travel time on these routes at non-peak times.</p>
+<hr>
+<div id="route-1---roe-hwy-to-tonkin-hwy-tonkin-hwy-to-roe-hwy" class="section level2 unnumbered">
+<h2>Route 1 - Roe Hwy to Tonkin Hwy / Tonkin Hwy to Roe Hwy<a class="anchor" aria-label="anchor" href="#route-1---roe-hwy-to-tonkin-hwy-tonkin-hwy-to-roe-hwy"><i class="fas fa-link"></i></a>
+</h2>
+<p>This route follows the Great Northern Highway north-south between the Tonkin Highway at Muchea and the Roe Highway–Reid Highway junction at Middle Swan. It passes Herne Hill, Upper Swan and Bullsbrook along its way. The BITRE telematics data shows it is a major route for freight heading north out of Perth.</p>
+<div class="inline-figure"><img src="media/image101.png" style="width:100.0%"></div>
+<div class="inline-table"><table style="width:100%;" class="table table-sm">
+<colgroup>
+<col width="14%">
+<col width="11%">
+<col width="18%">
+<col width="4%">
+<col width="20%">
+<col width="19%">
+<col width="4%">
+<col width="6%">
+</colgroup>
+<thead><tr class="header">
+<th>Direction</th>
+<th>Best travel time</th>
+<th>Longest median travel time</th>
+<th>METR</th>
+<th>Least uncertainty travel time</th>
+<th>Most uncertainty travel time</th>
+<th>MEUR</th>
+<th>Distance</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td>Roe Hwy to Tonkin Hwy</td>
+<td>00:26:13</td>
+<td>00:29:02</td>
+<td>1.1</td>
+<td>00:04:29</td>
+<td>00:08:05</td>
+<td>1.4</td>
+<td>34.5</td>
+</tr>
+<tr class="even">
+<td>Tonkin Hwy to Roe Hwy</td>
+<td>00:24:42</td>
+<td>00:27:07</td>
+<td>1.1</td>
+<td>00:02:40</td>
+<td>00:06:09</td>
+<td>1.4</td>
+<td>34.5</td>
+</tr>
+</tbody>
+</table></div>
+<p>The best median travel time travelling north was 26 minutes at 2am and the lowest uncertainty was experienced at 4am with an interquartile range of 4.5 minutes. The longest median travel times and the greatest uncertainty were during the afternoon peak at 5pm with a median travel time of 29 minutes and an interquartile range of 8 minutes. Travel times and uncertainty were slightly higher throughout the day. Mild delays were more apparent in the southern part of the route.</p>
+<p>The best travel times and the lowest uncertainty travelling south were at 2am with a median travel time of 25 minutes and an interquartile range of 3 minutes. The longest median travel times and the greatest uncertainty were experienced in the morning peak at 8am with a median of 27 minutes and an interquartile range of 6 minutes. Travel times and uncertainty were slightly higher throughout daylight hours. Again mild delays were more apparent in the southern sections of the route.</p>
+<p><img src="media/image102.PNG" style="width:100.0%"><br></p>
+</div>
+<div id="route-2-mitchell---hester-avenue-to-swan-river-swan-river-to-hester-avenue" class="section level2 unnumbered">
+<h2>Route 2 (Mitchell) - Hester Avenue to Swan River / Swan River to Hester Avenue<a class="anchor" aria-label="anchor" href="#route-2-mitchell---hester-avenue-to-swan-river-swan-river-to-hester-avenue"><i class="fas fa-link"></i></a>
+</h2>
+<p>This route follows the Mitchell Highway (Route 2) between Hester Avenue near Ridgewood in Perth’s northern suburbs, and the Swan River near the Perth CBD, and is one of the main routes servicing Perth’s northern suburbs. It also carries some traffic from the north coast of Western Australia.</p>
+<div class="inline-figure"><img src="media/image103.png" style="width:100.0%"></div>
+<div class="inline-table"><table style="width:100%;" class="table table-sm">
+<colgroup>
+<col width="18%">
+<col width="11%">
+<col width="17%">
+<col width="4%">
+<col width="19%">
+<col width="18%">
+<col width="4%">
+<col width="6%">
+</colgroup>
+<thead><tr class="header">
+<th>Direction</th>
+<th>Best travel time</th>
+<th>Longest median travel time</th>
+<th>METR</th>
+<th>Least uncertainty travel time</th>
+<th>Most uncertainty travel time</th>
+<th>MEUR</th>
+<th>Distance</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td>Hester Avenue to Swan River</td>
+<td>00:24:18</td>
+<td>00:46:56</td>
+<td>1.1</td>
+<td>00:01:50</td>
+<td>00:32:15</td>
+<td>4.7</td>
+<td>35.9</td>
+</tr>
+<tr class="even">
+<td>Swan River to Hester Avenue</td>
+<td>00:23:58</td>
+<td>00:34:04</td>
+<td>1.1</td>
+<td>00:01:47</td>
+<td>00:23:08</td>
+<td>2.7</td>
+<td>35.9</td>
+</tr>
+</tbody>
+</table></div>
+<p>The best median travel time southbound from Hester Avenue to the Swan River was 24 minutes at 4am and the lowest uncertainty were experienced at 2am with an interquartile range of 2 minutes. The longest median travel times and the greatest uncertainty were during the morning peak at 7am with a median travel time of 47 minutes and an interquartile range of 32 minutes. There was also a smaller, but still significant, increase in travel time and uncertainty in the afternoon peak. Delays were most apparent in two sections: one near Edgewater (south of Joondalup) and the other near Stirling (closer to the CBD).</p>
+<p>The best median travel time travelling north was 24 minutes at 5am and the lowest uncertainty was at 3am with an interquartile range of 2 minutes. The longest median travel times were at 4pm with a median travel time of 34 minutes and the greatest uncertainty was experienced at 5pm with an interquartile range of 23 minutes. Unlike the southbound direction, there was no observable morning peak in northbound journeys, reflecting the significance of this route as a corridor for commuter’s heading south towards the CBD. Congestion was again most apparent near Stirling.</p>
+<p><img src="media/image104.PNG" style="width:100.0%"><br></p>
+</div>
+<div id="route-2-kwinana---forrest-hwy-to-mitchell-hwy-mitchell-freeway-to-forrest-hwy" class="section level2 unnumbered">
+<h2>Route 2 (Kwinana) - Forrest Hwy to Mitchell Hwy / Mitchell Freeway to Forrest Hwy<a class="anchor" aria-label="anchor" href="#route-2-kwinana---forrest-hwy-to-mitchell-hwy-mitchell-freeway-to-forrest-hwy"><i class="fas fa-link"></i></a>
+</h2>
+<p>This route follows the Kwinana Highway connecting the Forrest Highway south of Mandurah and the Mitchell Highway at the Swan River near the Perth CBD. It is one of the main routes servicing Perth’s southern suburbs and Rockingham and Mandurah south of Perth.</p>
+<div class="inline-figure"><img src="media/image105.png" style="width:100.0%"></div>
+<div class="inline-table"><table class="table table-sm">
+<colgroup>
+<col width="21%">
+<col width="10%">
+<col width="16%">
+<col width="4%">
+<col width="18%">
+<col width="18%">
+<col width="4%">
+<col width="6%">
+</colgroup>
+<thead><tr class="header">
+<th>Direction</th>
+<th>Best travel time</th>
+<th>Longest median travel time</th>
+<th>METR</th>
+<th>Least uncertainty travel time</th>
+<th>Most uncertainty travel time</th>
+<th>MEUR</th>
+<th>Distance</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td>Forrest Hwy to Mitchell Hwy</td>
+<td>00:47:12</td>
+<td>01:11:01</td>
+<td>1.1</td>
+<td>00:04:30</td>
+<td>00:38:13</td>
+<td>3.4</td>
+<td>70.7</td>
+</tr>
+<tr class="even">
+<td>Mitchell Freeway to Forrest Hwy</td>
+<td>00:44:27</td>
+<td>00:53:20</td>
+<td>1.0</td>
+<td>00:03:18</td>
+<td>00:24:23</td>
+<td>2.2</td>
+<td>70.7</td>
+</tr>
+</tbody>
+</table></div>
+<p>The best median travel time for northbound travel was 47 minutes at 3am and the lowest uncertainty were experienced at 1am with an interquartile range of 4.5 minutes. The longest median travel times and greatest uncertainty were experienced at 8am during the morning peak with a median of 1 hour 11 minutes and interquartile range of 38 minutes. Travel times and uncertainty remained elevated throughout business hours. Delays were severe immediately south of the Swan River and near the intersection with the Roe Highway at Leeming.</p>
+<p>The best median travel time heading south was 44 minutes at 11pm and the lowest uncertainty were at 2am with an interquartile range of 3 minutes. The longest median travel times and the greatest uncertainty were experienced during the afternoon peak at 4pm with a median travel time of 53 minutes and an interquartile range of 24 minutes. Unlike the northbound reverse route, travel time and uncertainty remained stable throughout the whole day except the peak hours in the afternoon, likely reflecting the significance of this route as a corridor for commuter traffic heading north towards the CBD.</p>
+<p><img src="media/image106.PNG" style="width:100.0%"><br></p>
+</div>
+<div id="route-3-roe-highway---great-northern-highway-to-kwinana-freeway-kwinana-freeway-to-great-northern-highway" class="section level2 unnumbered">
+<h2>Route 3 (Roe Highway) - Great Northern Highway to Kwinana Freeway / Kwinana Freeway to Great Northern Highway<a class="anchor" aria-label="anchor" href="#route-3-roe-highway---great-northern-highway-to-kwinana-freeway-kwinana-freeway-to-great-northern-highway"><i class="fas fa-link"></i></a>
+</h2>
+<p>This route follows the Roe Highway between its junction the Great Northern Highway (Route 1) in the north and its connection with the Kwinana Freeway (Route 2) at Leeming in Perth’s south.</p>
+<div class="inline-figure"><img src="media/image107.png" style="width:100.0%"></div>
+<div class="inline-table"><table class="table table-sm">
+<colgroup>
+<col width="25%">
+<col width="10%">
+<col width="15%">
+<col width="3%">
+<col width="17%">
+<col width="17%">
+<col width="3%">
+<col width="5%">
+</colgroup>
+<thead><tr class="header">
+<th>Direction</th>
+<th>Best travel time</th>
+<th>Longest median travel time</th>
+<th>METR</th>
+<th>Least uncertainty travel time</th>
+<th>Most uncertainty travel time</th>
+<th>MEUR</th>
+<th>Distance</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td>Great Northern Highway to Kwinana Freeway</td>
+<td>00:25:03</td>
+<td>00:29:17</td>
+<td>1.1</td>
+<td>00:05:51</td>
+<td>00:14:34</td>
+<td>1.5</td>
+<td>34.1</td>
+</tr>
+<tr class="even">
+<td>Kwinana Freeway to Great Northern Highway</td>
+<td>00:23:04</td>
+<td>00:27:08</td>
+<td>1.1</td>
+<td>00:03:13</td>
+<td>00:15:21</td>
+<td>2.1</td>
+<td>34.2</td>
+</tr>
+</tbody>
+</table></div>
+<p>The best median travel times and lowest uncertainty for southbound travel were at 11pm with a median of 25 minutes and an interquartile range of 6 minutes. The longest median travel times and the greatest uncertainty were during the afternoon peak at 4pm with a median travel time of 29 minutes and an interquartile range of 15 minutes respectively. Travel time and uncertainty remained elevated throughout business hours. Delays were most apparent near intersections with Route 1 at Middle Swan, Route 4 at Forrestfield and the Kwinana Freeway (Route 2) at Leeming.</p>
+<p>The best travel times and the lowest uncertainty travelling north were at 2am with a median travel time of 23 minutes and an interquartile range of 3 minutes. The longest median travel times and greatest uncertainty were at 7am with a median of 27 minutes and an interquartile range of over 15 minutes.</p>
+<p><img src="media/image108.PNG" style="width:100.0%"><br></p>
+</div>
+<div id="route-3-reid-highway---mitchell-freeway-to-tonkin-freeway-tonkin-freeway-to-mitchell-freeway" class="section level2 unnumbered">
+<h2>Route 3 (Reid Highway) - Mitchell Freeway to Tonkin Freeway / Tonkin Freeway to Mitchell Freeway<a class="anchor" aria-label="anchor" href="#route-3-reid-highway---mitchell-freeway-to-tonkin-freeway-tonkin-freeway-to-mitchell-freeway"><i class="fas fa-link"></i></a>
+</h2>
+<p>This route follows the Reid Highway between its connection with the Mitchell Freeway (Route 2) north of Perth’s CBD, and its interchange with the Tonkin Freeway (Route 4) at Malaga, in Perth’s near northern suburbs. It passes the Perth suburbs of Westminster, Murrabooka and Noranda.</p>
+<div class="inline-figure"><img src="media/image109.png" style="width:100.0%"></div>
+<div class="inline-table"><table class="table table-sm">
+<colgroup>
+<col width="20%">
+<col width="10%">
+<col width="16%">
+<col width="4%">
+<col width="18%">
+<col width="18%">
+<col width="4%">
+<col width="6%">
+</colgroup>
+<thead><tr class="header">
+<th>Direction</th>
+<th>Best travel time</th>
+<th>Longest median travel time</th>
+<th>METR</th>
+<th>Least uncertainty travel time</th>
+<th>Most uncertainty travel time</th>
+<th>MEUR</th>
+<th>Distance</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td>Mitchell Freeway to Tonkin Fwy</td>
+<td>00:07:45</td>
+<td>00:10:23</td>
+<td>1.1</td>
+<td>00:00:57</td>
+<td>00:07:15</td>
+<td>2.8</td>
+<td>10.3</td>
+</tr>
+<tr class="even">
+<td>Tonkin Freeway to Mitchell Fwy</td>
+<td>00:07:28</td>
+<td>00:09:17</td>
+<td>1.1</td>
+<td>00:00:40</td>
+<td>00:05:07</td>
+<td>2.5</td>
+<td>10.5</td>
+</tr>
+</tbody>
+</table></div>
+<p>The best median travel time eastbound on the route was 8 minutes at 11pm and the lowest uncertainty were experienced at 2am with an interquartile range of 1 minute. The longest median travel times and greatest uncertainty were during the afternoon peak at 3pm with a median travel time of 10 minutes and an interquartile range of 7 minutes. There was also a smaller peak between 7 and 9am in the morning. Delays were most apparent near the Kwinana Freeway.</p>
+<p>The best median travel time travelling west was 7.5 minutes at 4am and the lowest uncertainty were at 1am with an interquartile range of 40 seconds. The longest median travel times and the greatest uncertainty were experienced during the afternoon peak at 4pm with 9 minutes and an interquartile range of 5 minutes respectively. Unlike the eastbound direction, there was no morning peak observed in westbound trips. Again delays were most apparent near the Kwinana Freeway.</p>
+<p><img src="media/image110.PNG" style="width:100.0%"><br></p>
+</div>
+<div id="route-4---great-northern-highway-to-thomas-road-thomas-road-to-great-northern-highway" class="section level2 unnumbered">
+<h2>Route 4 - Great Northern Highway to Thomas Road / Thomas Road to Great Northern Highway<a class="anchor" aria-label="anchor" href="#route-4---great-northern-highway-to-thomas-road-thomas-road-to-great-northern-highway"><i class="fas fa-link"></i></a>
+</h2>
+<p>This route follows the Tonkin Highway (Route 4) between its junction with the Great Northern Highway, at Muchea north of Perth, and its terminus at Thomas Road on Perth’s southern outskirts. It crosses the Reid Highway (Route 3) north of Morley and the Swan River near Redcliffe, and runs past Perth airport.</p>
+<div class="inline-figure"><img src="media/image111.png" style="width:100.0%"></div>
+<div class="inline-table"><table style="width:100%;" class="table table-sm">
+<colgroup>
+<col width="23%">
+<col width="10%">
+<col width="16%">
+<col width="4%">
+<col width="18%">
+<col width="17%">
+<col width="4%">
+<col width="5%">
+</colgroup>
+<thead><tr class="header">
+<th>Direction</th>
+<th>Best travel time</th>
+<th>Longest median travel time</th>
+<th>METR</th>
+<th>Least uncertainty travel time</th>
+<th>Most uncertainty travel time</th>
+<th>MEUR</th>
+<th>Distance</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td>Great Northern Highway to Thomas Road</td>
+<td>00:55:57</td>
+<td>01:07:21</td>
+<td>1.1</td>
+<td>00:13:20</td>
+<td>00:43:22</td>
+<td>1.6</td>
+<td>79.9</td>
+</tr>
+<tr class="even">
+<td>Thomas Road to Great Northern Highway</td>
+<td>00:53:27</td>
+<td>01:09:15</td>
+<td>1.1</td>
+<td>00:10:00</td>
+<td>00:31:13</td>
+<td>1.7</td>
+<td>79.9</td>
+</tr>
+</tbody>
+</table></div>
+<p>The best travel times and the lowest uncertainty for southbound travel to Thomas Road were experienced at 3am with a median travel time of 56 minutes and an interquartile range of 13 minutes. The longest median travel times and greatest uncertainty were experienced at 7am with a median of 1 hour 7 minutes and an interquartile range of 43 minutes, both of which occurred during the morning peak. There was a mild afternoon peak in uncertainty as well.</p>
+<p>The best travel times for northbound trips were at 2am with a median travel time of 53 minutes and the lowest uncertainty were at 3am with an interquartile range of 10 minutes. The longest median travel time was 1 hour 9 minutes experienced during the afternoon peak at 4pm and the greatest uncertainty was at 5pm with an interquartile range of 31 minutes. The causes of the third peak are unclear. Otherwise the greatest uncertainty was during the afternoon peak at 4pm. There was also a small increase in travel time uncertainty during the morning peak.</p>
+<p>In both directions delays were most apparent near the Swan River between Redcliffe and Bayswater. This was true of the morning, afternoon and “third” peaks.</p>
+<p><img src="media/image112.PNG" style="width:100.0%"><br></p>
+</div>
+<div id="route-5---great-eastern-highway-to-stirling-hwy-high-street-stirling-hwy-high-street-to-great-eastern-highway" class="section level2 unnumbered">
+<h2>Route 5 - Great Eastern Highway to Stirling Hwy, High Street / Stirling Hwy, High Street to Great Eastern Highway<a class="anchor" aria-label="anchor" href="#route-5---great-eastern-highway-to-stirling-hwy-high-street-stirling-hwy-high-street-to-great-eastern-highway"><i class="fas fa-link"></i></a>
+</h2>
+<p>This route runs between High Street (Route 7) in Fremantle, via the northern side of the Swan River and to the junction of Albany Highway, Great Eastern Highway (GEH) and Canning Highway near Burswood, southwest of the CBD. It traverses the Stirling Highway, Mounts Bay Road, Riverside Drive and the Causeway.</p>
+<div class="inline-figure"><img src="media/image113.png" style="width:100.0%"></div>
+<div class="inline-table"><table class="table table-sm">
+<colgroup>
+<col width="29%">
+<col width="9%">
+<col width="15%">
+<col width="3%">
+<col width="16%">
+<col width="16%">
+<col width="3%">
+<col width="5%">
+</colgroup>
+<thead><tr class="header">
+<th>Direction</th>
+<th>Best travel time</th>
+<th>Longest median travel time</th>
+<th>METR</th>
+<th>Least uncertainty travel time</th>
+<th>Most uncertainty travel time</th>
+<th>MEUR</th>
+<th>Distance</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td>Great Eastern Highway to Stirling Hwy, High Street</td>
+<td>00:23:43</td>
+<td>00:29:05</td>
+<td>1.1</td>
+<td>00:07:52</td>
+<td>00:29:34</td>
+<td>1.9</td>
+<td>20.3</td>
+</tr>
+<tr class="even">
+<td>Stirling Hwy, High Street to Great Eastern Highway</td>
+<td>00:24:21</td>
+<td>00:32:21</td>
+<td>1.1</td>
+<td>00:06:30</td>
+<td>00:27:15</td>
+<td>2.1</td>
+<td>20.7</td>
+</tr>
+</tbody>
+</table></div>
+<p>The best median travel time travelling from Burswood to Fremantle (i.e. Great Eastern Highway to Stirling Highway) was 24 minutes at 2am and the lowest uncertainty were experienced at midnight with an interquartile range of 8 minutes. The longest median travel times were experienced at 12pm with a median travel time of 29 minutes and the greatest uncertainty was at 5am with an interquartile range of 30 minutes. There were no distinctive peaks in travel time along this route, but there is significant variation in travel time uncertainty across the entire 24-hour period.</p>
+<p>The best travel times and the lowest uncertainty travelling in the reverse direction (from Fremantle to the CBD (and Burswood) were experienced at 3am with a median travel time of 24 minutes and an interquartile range of 6.5 minutes. The longest median travel times and greatest uncertainty were during the morning peak at 8am with a median travel time of 32 minutes and an interquartile range of 27 minutes. There was a slight increase in uncertainty during the afternoon peak, which was also higher throughout business hours. Delays were more apparent near the CBD and near Claremont.</p>
+<p><img src="media/image114.PNG" style="width:100.0%"><br></p>
+</div>
+<div id="route-6---fremantle-to-great-eastern-highway-great-eastern-highway-to-fremantle" class="section level2 unnumbered">
+<h2>Route 6 - Fremantle to Great Eastern Highway / Great Eastern Highway to Fremantle<a class="anchor" aria-label="anchor" href="#route-6---fremantle-to-great-eastern-highway-great-eastern-highway-to-fremantle"><i class="fas fa-link"></i></a>
+</h2>
+<p>This surface route follows the Canning Highway between Fremantle and the Great Eastern Highway, to the east of the Perth CBD—like Route 5 but south of the Swan River.</p>
+<div class="inline-figure"><img src="media/image115.png" style="width:100.0%"></div>
+<div class="inline-table"><table style="width:100%;" class="table table-sm">
+<colgroup>
+<col width="22%">
+<col width="10%">
+<col width="16%">
+<col width="4%">
+<col width="18%">
+<col width="17%">
+<col width="4%">
+<col width="5%">
+</colgroup>
+<thead><tr class="header">
+<th>Direction</th>
+<th>Best travel time</th>
+<th>Longest median travel time</th>
+<th>METR</th>
+<th>Least uncertainty travel time</th>
+<th>Most uncertainty travel time</th>
+<th>MEUR</th>
+<th>Distance</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td>Fremantle to Great Eastern Highway</td>
+<td>00:18:36</td>
+<td>00:24:20</td>
+<td>1.1</td>
+<td>00:05:57</td>
+<td>00:20:19</td>
+<td>1.9</td>
+<td>16.0</td>
+</tr>
+<tr class="even">
+<td>Great Eastern Highway to Fremantle</td>
+<td>00:18:29</td>
+<td>00:23:26</td>
+<td>1.1</td>
+<td>00:04:13</td>
+<td>00:16:45</td>
+<td>2.5</td>
+<td>15.8</td>
+</tr>
+</tbody>
+</table></div>
+<p>The best travel times and the lowest uncertainty for eastbound travel to the CBD were experienced at 5am with a median travel time of 19 minutes and an interquartile range of 6 minutes. The longest median travel times and the greatest uncertainty were at midday with a median travel time of 24 minutes and an interquartile range of 20 minutes. Travel time uncertainty gradually increased between 4am and midday (12pm) where it formed a distinct peak, which is not necessarily associated with commuter traffic flows, making this route unique in this report. There was also a smaller peak in the afternoon. Delays were more apparent closer to Fremantle.</p>
+<p>The best median travel time travelling west to Fremantle was 18 minutes at 5am and the lowest uncertainty were experienced at 1am with an interquartile range of 4 minutes. The longest median travel time was 23 minutes at 3pm and the greatest uncertainty was in the afternoon at 4pm with an interquartile range of 17 minutes. Delays and uncertainty were at similar levels throughout business hours. Delays were fairly evenly distributed across the route.</p>
+<p>Elevated median travel time and uncertainty were observed during business hours in both directions.</p>
+<p><img src="media/image116.PNG" style="width:100.0%"><br></p>
+</div>
+<div id="route-7---stirling-hwy-to-tonkin-freeway-tonkin-freeway-to-stirling-hwy" class="section level2 unnumbered">
+<h2>Route 7 - Stirling Hwy to Tonkin Freeway / Tonkin Freeway to Stirling Hwy<a class="anchor" aria-label="anchor" href="#route-7---stirling-hwy-to-tonkin-freeway-tonkin-freeway-to-stirling-hwy"><i class="fas fa-link"></i></a>
+</h2>
+<p>This route follows the Leach Highway (Route 7) between the Stirling Highway (Route 6), at Fremantle, to the interchange with the Tonkin Freeway (Route 4) near Perth Airport.</p>
+<div class="inline-figure"><img src="media/image117.png" style="width:100.0%"></div>
+<div class="inline-table"><table class="table table-sm">
+<colgroup>
+<col width="20%">
+<col width="10%">
+<col width="16%">
+<col width="4%">
+<col width="18%">
+<col width="18%">
+<col width="4%">
+<col width="6%">
+</colgroup>
+<thead><tr class="header">
+<th>Direction</th>
+<th>Best travel time</th>
+<th>Longest median travel time</th>
+<th>METR</th>
+<th>Least uncertainty travel time</th>
+<th>Most uncertainty travel time</th>
+<th>MEUR</th>
+<th>Distance</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td>Stirling Hwy to Tonkin Freeway</td>
+<td>00:19:58</td>
+<td>00:24:55</td>
+<td>1.1</td>
+<td>00:04:38</td>
+<td>00:19:18</td>
+<td>2.0</td>
+<td>21.9</td>
+</tr>
+<tr class="even">
+<td>Tonkin Freeway to Stirling Hwy</td>
+<td>00:21:36</td>
+<td>00:25:05</td>
+<td>1.1</td>
+<td>00:04:31</td>
+<td>00:15:00</td>
+<td>2.1</td>
+<td>22.1</td>
+</tr>
+</tbody>
+</table></div>
+<p>The best median travel time for eastbound trips from Fremantle to the Tonkin Freeway was 20 minutes at midnight and the lowest uncertainty were experienced at 3am with an interquartile range of 5 minutes. The longest median travel times and the greatest uncertainty were during the morning peak at 8am with a median travel time of 25 minutes and an interquartile range of 19 minutes. There were also smaller peaks in median travel time and travel time uncertainty in the afternoon and evening. Delays were evenly distributed along the route but slightly more apparent around Riverton midway along the route.</p>
+<p>The best median travel time for westbound travel from the Tonkin Freeway to Fremantle was 22 minutes at 11pm and the lowest uncertainty were experienced at 1am with an interquartile range of 4.5 minutes. The longest median travel times and greatest uncertainty were at 8am with a median of 25 minutes and an interquartile range of 15 minutes. There was also an afternoon peak where the increase in uncertainty was of similar magnitude to that of the morning peak. Delays were more apparent near Fremantle and Welshpool.</p>
+<p><img src="media/image118.PNG" style="width:100.0%"><br></p>
+</div>
+<div id="route-8---canning-road-to-mitchell-freeway-mitchell-freeway-to-canning-road" class="section level2 unnumbered">
+<h2>Route 8 - Canning Road to Mitchell Freeway / Mitchell Freeway to Canning Road<a class="anchor" aria-label="anchor" href="#route-8---canning-road-to-mitchell-freeway-mitchell-freeway-to-canning-road"><i class="fas fa-link"></i></a>
+</h2>
+<p>This route runs from Canning Road on Perth’s eastern fringe, through Perth’s eastern suburbs, to the Mitchell Freeway (Route 2) just west of the CBD. The route follows the Graham Farmer Freeway, Orrong Road and Welshpool Road.</p>
+<div class="inline-figure"><img src="media/image119.png" style="width:100.0%"></div>
+<div class="inline-table"><table class="table table-sm">
+<colgroup>
+<col width="21%">
+<col width="10%">
+<col width="16%">
+<col width="4%">
+<col width="18%">
+<col width="17%">
+<col width="4%">
+<col width="5%">
+</colgroup>
+<thead><tr class="header">
+<th>Direction</th>
+<th>Best travel time</th>
+<th>Longest median travel time</th>
+<th>METR</th>
+<th>Least uncertainty travel time</th>
+<th>Most uncertainty travel time</th>
+<th>MEUR</th>
+<th>Distance</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td>Canning Road to Mitchell Freeway</td>
+<td>00:24:41</td>
+<td>00:31:12</td>
+<td>1.1</td>
+<td>00:10:39</td>
+<td>00:24:07</td>
+<td>1.3</td>
+<td>24.1</td>
+</tr>
+<tr class="even">
+<td>Mitchell Freeway to Canning Road</td>
+<td>00:23:54</td>
+<td>00:28:42</td>
+<td>1.1</td>
+<td>00:09:16</td>
+<td>00:18:05</td>
+<td>1.4</td>
+<td>24.1</td>
+</tr>
+</tbody>
+</table></div>
+<p>The best median travel time travelling west to the CBD (Canning Road to the Mitchell Freeway) was 25 minutes at 7pm and the lowest uncertainty were experienced at 4am with an interquartile range of 11 minutes. The longest median travel times and the greatest uncertainty were at midnight with a median travel time of 31 minutes and an interquartile range of 24 minutes. The reasons for these delays at a time that would ordinarily be assumed to be free running conditions are not apparent, but delays were most apparent on Orrong Road near Carlisle. Otherwise there were mild morning and afternoon peaks.</p>
+<p>The best travel times and the lowest uncertainty eastbound (Mitchell Freeway to Canning Road) were experienced at 7pm with a median travel time of 24 minutes and an interquartile range of 9 minutes. The longest median travel time was 29 minutes at 3am. Like the midnight peak in the reverse direction, the reason for this are unclear but delays were concentrated on Welshpool Road East. Otherwise travel times were largely stable throughout the day. The greatest uncertainty was in the afternoon at 4pm with an interquartile range of 18 minutes.</p>
+<p><img src="media/image120.PNG" style="width:100.0%"><br></p>
+
+</div>
+</div>
+  <div class="chapter-nav">
+<div class="prev"><a href="adelaide.html">Adelaide</a></div>
+<div class="next"><a href="appendices-and-references.html">Appendices and References</a></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#perth">Perth</a></li>
+<li><a class="nav-link" href="#route-1---roe-hwy-to-tonkin-hwy-tonkin-hwy-to-roe-hwy">Route 1 - Roe Hwy to Tonkin Hwy / Tonkin Hwy to Roe Hwy</a></li>
+<li><a class="nav-link" href="#route-2-mitchell---hester-avenue-to-swan-river-swan-river-to-hester-avenue">Route 2 (Mitchell) - Hester Avenue to Swan River / Swan River to Hester Avenue</a></li>
+<li><a class="nav-link" href="#route-2-kwinana---forrest-hwy-to-mitchell-hwy-mitchell-freeway-to-forrest-hwy">Route 2 (Kwinana) - Forrest Hwy to Mitchell Hwy / Mitchell Freeway to Forrest Hwy</a></li>
+<li><a class="nav-link" href="#route-3-roe-highway---great-northern-highway-to-kwinana-freeway-kwinana-freeway-to-great-northern-highway">Route 3 (Roe Highway) - Great Northern Highway to Kwinana Freeway / Kwinana Freeway to Great Northern Highway</a></li>
+<li><a class="nav-link" href="#route-3-reid-highway---mitchell-freeway-to-tonkin-freeway-tonkin-freeway-to-mitchell-freeway">Route 3 (Reid Highway) - Mitchell Freeway to Tonkin Freeway / Tonkin Freeway to Mitchell Freeway</a></li>
+<li><a class="nav-link" href="#route-4---great-northern-highway-to-thomas-road-thomas-road-to-great-northern-highway">Route 4 - Great Northern Highway to Thomas Road / Thomas Road to Great Northern Highway</a></li>
+<li><a class="nav-link" href="#route-5---great-eastern-highway-to-stirling-hwy-high-street-stirling-hwy-high-street-to-great-eastern-highway">Route 5 - Great Eastern Highway to Stirling Hwy, High Street / Stirling Hwy, High Street to Great Eastern Highway</a></li>
+<li><a class="nav-link" href="#route-6---fremantle-to-great-eastern-highway-great-eastern-highway-to-fremantle">Route 6 - Fremantle to Great Eastern Highway / Great Eastern Highway to Fremantle</a></li>
+<li><a class="nav-link" href="#route-7---stirling-hwy-to-tonkin-freeway-tonkin-freeway-to-stirling-hwy">Route 7 - Stirling Hwy to Tonkin Freeway / Tonkin Freeway to Stirling Hwy</a></li>
+<li><a class="nav-link" href="#route-8---canning-road-to-mitchell-freeway-mitchell-freeway-to-canning-road">Route 8 - Canning Road to Mitchell Freeway / Mitchell Freeway to Canning Road</a></li>
+</ul>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+          
+        </ul>
+</div>
+    </nav>
+</div>
+
+</div>
+</div> <!-- .container -->
+
+<footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>"<strong><div class="inline-figure">
+<img src="media/bitre.png" style="width:100.0%">
+Congestion Report 2019</div></strong>" was written by Richard Green and Weihua Chen. It was last built on 2021-11-10.</p>
+  </div>
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>This book was built by the <a class="text-light" href="https://bookdown.org">bookdown</a> R package.</p>
+  </div>
+
+</div></div>
+</footer>
+</body>
+</html>
